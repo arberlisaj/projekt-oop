@@ -1,0 +1,45 @@
+# Folders e output-it të build-it
+bin/
+obj/
+
+# Paketat NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# File përdoruesish (IDE dhe user-specific)
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Skedarë të debug-ut dhe cache
+*.pdb
+*.cache
+*.log
+*.vs/
+*.vscode/
+
+# TestResults
+TestResults/
+
+# File për mbulimin e kodit
+*.coverage
+*.coveragexml
+*.testsettings
+*.trx
+
+# OS specifik (Windows, macOS)
+Thumbs.db
+.DS_Store
+
+# Rider IDE
+.idea/
+
+# VSCode settings (opsionale nëse nuk i ruan në repo)
+.vscode/
+
+# Për projekte me publish
+publish/
